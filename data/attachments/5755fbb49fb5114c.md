@@ -1,0 +1,305 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e7]:
+        - link "main-logo" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "main-logo" [ref=e9]
+        - generic [ref=e10]:
+          - button "Avto qidirish" [ref=e11] [cursor=pointer]:
+            - generic [ref=e15]: Avto qidirish
+          - button "Switch to ru" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e20]
+              - paragraph [ref=e22]: O'z
+          - generic [ref=e23]:
+            - button "Notifications" [ref=e25] [cursor=pointer]
+            - button "Messages" [ref=e29] [cursor=pointer]
+            - button "Sell auto" [ref=e32] [cursor=pointer]:
+              - generic [ref=e36]: E'lon joylash
+            - button "Login" [ref=e37] [cursor=pointer]:
+              - generic [ref=e39]: Kirish
+      - generic [ref=e42]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link "Yangi avtomobillar" [ref=e47] [cursor=pointer]:
+              - /url: /filter/autos?isUsed=false
+          - listitem [ref=e48]:
+            - link "Maxsus texnika" [ref=e51] [cursor=pointer]:
+              - /url: /filter/spes-texnika
+              - text: Maxsus texnika
+              - img [ref=e52]
+          - listitem [ref=e54]:
+            - link "Moto" [ref=e57] [cursor=pointer]:
+              - /url: /filter/motos
+              - text: Moto
+              - img [ref=e58]
+          - listitem [ref=e60]:
+            - link "Biznes uchun" [ref=e63] [cursor=pointer]:
+              - /url: https://business.a-bozor.uz/
+          - listitem [ref=e64]:
+            - link "Yangiliklar" [ref=e67] [cursor=pointer]:
+              - /url: /blog
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "Reklama beruvchilar uchun" [ref=e72] [cursor=pointer]:
+              - /url: /reklama
+      - main [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - generic [ref=e78]:
+              - heading "Reklamangiz — avtomobil bozorining markazida!" [level=1] [ref=e79]
+              - generic [ref=e80]:
+                - paragraph [ref=e81]: Abozor Ads — bu reklama emas, bu imkoniyat!
+                - paragraph [ref=e82]: Yuz minglab xaridor, sotuvchilar aynan shu yerda uchrashadi va ular sizni ham ko’rishi mumkin.
+                - paragraph [ref=e83]: Boshlang'ich narx — atigi 100 000 so'm.
+              - generic [ref=e84]:
+                - paragraph [ref=e87]: 400 000+ jami foydalanuvchi
+                - paragraph [ref=e90]: 10 000+ kunlik faol
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: Bepul maslahat oling
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Ism *
+                  - textbox "Ism" [ref=e99]:
+                    - /placeholder: Ismingizni kiriting
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Telefon raqam *
+                  - textbox "Telefon raqam" [ref=e103]:
+                    - /placeholder: +998 99 123 45 67
+              - button "So'rov yuborish" [ref=e104] [cursor=pointer]:
+                - generic [ref=e106]: So'rov yuborish
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - paragraph [ref=e112]: Abozor Ads bilan nima olasiz?
+              - paragraph [ref=e113]: Avtomobil sotuvchilari uchun maxsus ishlab chiqilgan reklama yechimlari
+            - generic [ref=e114]:
+              - generic [ref=e116]:
+                - heading "400 000+" [level=3] [ref=e120]
+                - paragraph [ref=e121]: Jami ro'yxatdan o'tgan foydalanuvchi
+              - generic [ref=e123]:
+                - heading "10 000+" [level=3] [ref=e127]
+                - paragraph [ref=e128]: Har kuni yangi e'lonlarni ko'rayotgan real auditoriya
+              - generic [ref=e130]:
+                - heading "Konversiya darajasi" [level=3] [ref=e134]
+                - paragraph [ref=e135]: Reklamangiz aynan xarid qilishga tayyor foydalanuvchilarga chiqadi.
+          - generic [ref=e137]:
+            - heading "Sizga taqdim etamiz" [level=1] [ref=e139]
+            - generic [ref=e141]:
+              - generic [ref=e144]:
+                - img [ref=e146]
+                - generic [ref=e147]:
+                  - heading "Maqsadli auditoriya" [level=1] [ref=e148]
+                  - paragraph [ref=e149]: Avtomobil sotib olmoqchi bo'lgan real xaridorlar bilan to'g'ridan-to'g'ri aloqa
+              - generic [ref=e152]:
+                - img [ref=e154]
+                - generic [ref=e155]:
+                  - heading "Yuqori ko'rinish" [level=1] [ref=e156]
+                  - paragraph [ref=e157]: Platformaning eng ko'p tashrif buyuriladigan joylarida reklamangiz
+              - generic [ref=e160]:
+                - img [ref=e162]
+                - generic [ref=e163]:
+                  - heading "Aniq hisobotlar" [level=1] [ref=e164]
+                  - paragraph [ref=e165]: Har bir reklama bo‘yicha bosishlar, ko‘rishlar va aniq natijalar tahlili
+              - generic [ref=e168]:
+                - img [ref=e170]
+                - generic [ref=e171]:
+                  - heading "Professional yordam" [level=1] [ref=e172]
+                  - paragraph [ref=e173]: Reklama yaratishdan natijalarni tahlil qilishgacha to'liq qo'llab-quvvatlash
+              - generic [ref=e176]:
+                - img [ref=e178]
+                - generic [ref=e179]:
+                  - heading "Tez natija" [level=1] [ref=e180]
+                  - paragraph [ref=e181]: 24 soat ichida reklamangiz ishga tushadi va foydalanuvchilar ko‘ra boshlaydi.
+              - generic [ref=e184]:
+                - img [ref=e186]
+                - generic [ref=e187]:
+                  - heading "Xavfsiz to'lov" [level=1] [ref=e188]
+                  - paragraph [ref=e189]: Ruxsat etilgan, himoyalangan kanal orqali to'lov
+              - generic [ref=e192]:
+                - img [ref=e194]
+                - generic [ref=e195]:
+                  - heading "Bepul banner tayyorlash" [level=1] [ref=e196]
+                  - paragraph [ref=e197]: Reklamangiz uchun professional, bepul bannerlar
+              - generic [ref=e200]:
+                - img [ref=e202]
+                - generic [ref=e203]:
+                  - heading "Maxsus veb-sahifa" [level=1] [ref=e204]
+                  - paragraph [ref=e205]: Mahsulot, yoki xizmatingiz haqida to'liq ma'lumot beradigan veb-sayt sahifasi
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - heading "Reklamangiz qayerda ko'rsatiladi" [level=1] [ref=e210]
+              - paragraph [ref=e211]: Eng samarali joylarda ko‘rsating
+            - generic [ref=e213]:
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - generic [ref=e217]:
+                  - heading "Asosiy sahifa" [level=1] [ref=e218]
+                  - paragraph [ref=e219]: Barcha foydalanuvchilar birinchi kiradigan joy — eng ko'p foydalanuvchilar oqimi shu yerda
+              - generic [ref=e221]:
+                - img [ref=e222]
+                - generic [ref=e223]:
+                  - heading "E'lonlar orasida" [level=1] [ref=e224]
+                  - paragraph [ref=e225]: Mashina izlayotgan maqsadli foydalanuvchilarni shu yerdan topasiz
+              - generic [ref=e227]:
+                - img [ref=e228]
+                - generic [ref=e229]:
+                  - heading "Mashina sahifasida" [level=1] [ref=e230]
+                  - paragraph [ref=e231]: Avtomobil tafsilotlarini ko‘rayotgan eng faol foydalanuvchilar to'planadigan bo'lim
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - heading "Kimga ko'rsatishni tanlang" [level=1] [ref=e235]
+              - paragraph [ref=e236]: Byudjetni to‘g‘ri sarflang — faqat kerakli auditoriyani tanlang
+            - generic [ref=e238]:
+              - generic [ref=e241]:
+                - img [ref=e243]
+                - generic [ref=e244]:
+                  - heading "Brend bo'yicha" [level=1] [ref=e245]
+                  - paragraph [ref=e246]: Toyota, Chevrolet, BYD va boshqa brendlar xaridorlarini tanlab, reklamangizni aniq auditoriyaga yo‘naltiring.
+              - generic [ref=e249]:
+                - img [ref=e251]
+                - generic [ref=e252]:
+                  - heading "Mijozingiz kim — aniqlab oling" [level=1] [ref=e253]
+                  - paragraph [ref=e254]: O‘rta klassdan tortib, yuqori klassgacha — mashina narx oralig‘ini belgilang va reklamangiz aynan o‘sha segmentdagi xaridorlarga ko‘rsatiladi.
+              - generic [ref=e257]:
+                - img [ref=e259]
+                - generic [ref=e260]:
+                  - heading "Kategoriya bo'yicha" [level=1] [ref=e261]
+                  - paragraph [ref=e262]: SUV, sedan yoki elektromobil xaridorlariga yo‘naltirilgan reklama. Sizda elektromobil bo‘lsa — reklama faqat shu turga qiziqqan foydalanuvchilarga ko‘rsatiladi.
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - heading "To'lov modellari" [level=1] [ref=e266]
+              - paragraph [ref=e267]: Faqat natija uchun to'lov
+            - generic [ref=e269]:
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - paragraph [ref=e276]: CPM Model
+                  - paragraph [ref=e277]: Har 1000 ko'rish uchun to'lov
+                - generic [ref=e279]:
+                  - paragraph [ref=e280]: Qachon foydali
+                  - list [ref=e281]:
+                    - listitem [ref=e282]:
+                      - generic [ref=e284]: Brend tanilishini oshirish uchun
+                    - listitem [ref=e285]:
+                      - generic [ref=e287]: Ko'p odamga ko'rsatish kerak bo'lganda
+                    - listitem [ref=e288]:
+                      - generic [ref=e290]: Yangi mahsulotni e'lon qilishda
+                - paragraph [ref=e293]: To’lov hamyoningizdan yechiladi
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - paragraph [ref=e300]: CPC Model
+                  - paragraph [ref=e301]: Har bir harakat uchun to'lov - faqat reklamaga bosilganda
+                - generic [ref=e303]:
+                  - paragraph [ref=e304]: Qachon foydali
+                  - list [ref=e305]:
+                    - listitem [ref=e306]:
+                      - generic [ref=e308]: Aniq harakatlar kerak bo'lganda
+                    - listitem [ref=e309]:
+                      - generic [ref=e311]: Xaridorlarni saytingizga olib o‘tish uchun
+                    - listitem [ref=e312]:
+                      - generic [ref=e314]: Savdo va qo'ng'iroqlar sonini oshirish uchun
+                - paragraph [ref=e317]: To’lov hamyoningizdan yechiladi
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - heading "Natijalarni kuzatish imkoni" [level=1] [ref=e321]
+              - paragraph [ref=e322]: Har bir reklamangiz bo'yicha natijalarni ko'rib boring
+            - generic [ref=e324]:
+              - generic [ref=e327]:
+                - generic [ref=e330]:
+                  - img "Sarflandi" [ref=e332]
+                  - generic [ref=e333]:
+                    - paragraph [ref=e334]: Sarflandi
+                    - paragraph [ref=e335]: 165,000 сум
+                - generic [ref=e338]:
+                  - img "Ko‘rildi" [ref=e340]
+                  - generic [ref=e341]:
+                    - paragraph [ref=e342]: Ko‘rildi
+                    - paragraph [ref=e343]: 1,500
+                - generic [ref=e346]:
+                  - img "Bosishlar soni" [ref=e348]
+                  - generic [ref=e349]:
+                    - paragraph [ref=e350]: Bosishlar soni
+                    - paragraph [ref=e351]: "45"
+                - generic [ref=e354]:
+                  - img "CTR" [ref=e356]
+                  - generic [ref=e357]:
+                    - paragraph [ref=e358]: CTR
+                    - paragraph [ref=e359]: 3%
+              - generic [ref=e362]:
+                - paragraph [ref=e363]: Kimlar ko'rdi
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - paragraph [ref=e367]: Toyota xaridorlari
+                      - paragraph [ref=e368]: 34%
+                    - progressbar [ref=e370]
+                  - generic [ref=e371]:
+                    - generic [ref=e372]:
+                      - paragraph [ref=e373]: 15 000–25 000 dollar byudjetdagi xaridorlar
+                      - paragraph [ref=e374]: 44%
+                    - progressbar [ref=e376]
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - paragraph [ref=e379]: SUV izlayotgan foydalanuvchilar
+                      - paragraph [ref=e380]: 64%
+                    - progressbar [ref=e382]
+          - generic [ref=e385]:
+            - generic [ref=e386]:
+              - heading "Qanday ishlaymiz" [level=1] [ref=e387]
+              - paragraph [ref=e388]: Reklamangizni atigi 4 bosqichda ishga tushiramiz
+            - generic [ref=e390]:
+              - generic [ref=e393]:
+                - paragraph [ref=e395]: "1"
+                - generic [ref=e396]:
+                  - paragraph [ref=e397]: Siz murojaat qilasiz
+                  - paragraph [ref=e398]: Qo‘ng‘iroq qiling yoki onlayn formani to‘ldiring
+              - generic [ref=e401]:
+                - paragraph [ref=e403]: "2"
+                - generic [ref=e404]:
+                  - paragraph [ref=e405]: Reklama tayyorlaymiz
+                  - paragraph [ref=e406]: Maqsadingizga mos reklama tayyorlaymiz
+              - generic [ref=e409]:
+                - paragraph [ref=e411]: "3"
+                - generic [ref=e412]:
+                  - paragraph [ref=e413]: Reklama ishga tushadi
+                  - paragraph [ref=e414]: 24 soat ichida reklamangiz ko'rsatila boshlaydi
+              - generic [ref=e417]:
+                - paragraph [ref=e419]: "4"
+                - generic [ref=e420]:
+                  - paragraph [ref=e421]: Natijalarni kuzatamiz
+                  - paragraph [ref=e422]: Har kuni hisobot va tahlillarni taqdim etamiz
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - heading "400 000+ avtomobil xaridorlariga reklamangizni yetkazing" [level=1] [ref=e427]
+              - paragraph [ref=e428]: Biz bilan bog‘laning va birinchi reklamangizni bepul maslahat bilan boshlang.
+            - generic [ref=e431]:
+              - paragraph [ref=e432]: Bepul maslahat oling
+              - generic [ref=e433]:
+                - generic [ref=e434]:
+                  - generic [ref=e435]: Ism *
+                  - textbox "Ism" [ref=e437]:
+                    - /placeholder: Ismingizni kiriting
+                - generic [ref=e438]:
+                  - generic [ref=e439]: Telefon raqam *
+                  - textbox "Telefon raqam" [ref=e441]:
+                    - /placeholder: +998 99 123 45 67
+              - button "So'rov yuborish" [ref=e442] [cursor=pointer]:
+                - generic [ref=e444]: So'rov yuborish
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - paragraph [ref=e451]: © 2025 Abozor
+          - list [ref=e452]:
+            - listitem [ref=e453]:
+              - link "Foydalanuvchi kelishuvi" [ref=e456] [cursor=pointer]:
+                - /url: https://a-bozor.uz/agreement
+            - listitem [ref=e457]:
+              - button "Yordam kerakmi?" [ref=e460] [cursor=pointer]
+        - generic [ref=e461]:
+          - paragraph [ref=e464]: Ko‘proq funksiyalar Abozor mobil ilovasida
+          - button "Yuklab olish" [ref=e465] [cursor=pointer]:
+            - generic [ref=e467]: Yuklab olish
+```
